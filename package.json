@@ -1,0 +1,15 @@
+{
+  "name": "tailwing",
+  "version": "1.0.0",
+  "description": "workshop with tailwing",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx tailwindcss -i ./input.css -o ./dist/output.css --watch",
+    "build":"npx tailwindcss -i ./input.css -o ./dist/output.css"
+  },
+  "author": "Jude OKAGU",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
