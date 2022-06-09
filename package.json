@@ -4,12 +4,15 @@
   "description": "workshop with tailwing",
   "main": "index.js",
   "scripts": {
-    "dev":"npx tailwindcss -i ./input.css -o ./dist/output.css --watch",
-    "build":"npx tailwindcss -i ./input.css -o ./dist/output.css"
+    "dev": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css"
   },
   "author": "Jude OKAGU",
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
